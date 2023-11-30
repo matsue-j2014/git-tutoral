@@ -5,8 +5,6 @@ def run_fizzbuzz
 end
 
 def fizzbuzz(num)
-  if (num % 15).zero?
-    'FizzBuzz'
   elsif (num % 5).zero?
     'Buzz'
   elsif (num % 3).zero?

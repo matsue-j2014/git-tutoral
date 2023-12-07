@@ -11,6 +11,8 @@ def fizzbuzz(num)
     'Buzz'
   elsif (num % 3).zero?
     'Fizz'
+  elsif (num % 7).zero?
+    'git'
   else
     num
   end
